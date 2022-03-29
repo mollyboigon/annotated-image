@@ -160,6 +160,7 @@ figcaption {
     left: 0;
     right: 0;
     bottom: 0;
+    padding: 22px;
 }
 
 .dot.active .inner, /*inner is nested inside of dot*/
@@ -167,7 +168,6 @@ figcaption {
     display: block;
 }
 /** Images are allowed to be a little wider when broken out into their own container */
-
 
 
 
