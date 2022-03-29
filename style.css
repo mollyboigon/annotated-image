@@ -124,17 +124,34 @@ figcaption {
     background-color: rgba(240, 161, 175, 0.65);
 
 }
+.blue {
+    background-color: rgba(161, 190, 240, .65);
 
+}
+
+.green {
+    background-color: rgba(162, 240, 161, 0.65);
+
+}
 .annotate {
     position:relative;
 
 }
 
-#camera:not(.active) /*camera is an id, top and left are applying after. colon not active changes it so that it finds elemnt on the pag with class camera and doesn't have class camera and appliels these. if it has both it doesn't apply*/ {
+#worker:not(.active) /*camera is an id, top and left are applying after. colon not active changes it so that it finds elemnt on the pag with class camera and doesn't have class camera and appliels these. if it has both it doesn't apply*/ {
     top: 20%;
-    left: 31%
+    left: 25%
 }
 
+#building:not(.active) /*camera is an id, top and left are applying after. colon not active changes it so that it finds elemnt on the pag with class camera and doesn't have class camera and appliels these. if it has both it doesn't apply*/ {
+    top: 10%;
+    left: 81%
+}
+
+#conditions:not(.active) /*camera is an id, top and left are applying after. colon not active changes it so that it finds elemnt on the pag with class camera and doesn't have class camera and appliels these. if it has both it doesn't apply*/ {
+    top: 20%;
+    left: 45%
+}
 .dot.active{/*two classes*/
     width: 100%;
     height: 100%;
